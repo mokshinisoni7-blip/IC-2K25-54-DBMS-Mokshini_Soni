@@ -1,0 +1,7 @@
+create table job_histry(
+employee_id varchar(20) primary key,
+ 	start_date date,
+ 	end_date date,
+  	job_id int,
+  	department_id varchar(20),
+   	check (end_date like ‘__/__/____’));
