@@ -1,0 +1,4 @@
+create table countries(
+    	country_id varchar(10) unique,
+    	country_name char(40),
+    	region_id varchar(10));
