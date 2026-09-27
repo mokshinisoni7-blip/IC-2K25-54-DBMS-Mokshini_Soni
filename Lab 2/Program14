@@ -1,0 +1,2 @@
+Select * from employees
+where first_name in ('Aarav','Sneha');
