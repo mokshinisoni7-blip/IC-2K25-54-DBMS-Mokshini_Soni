@@ -1,0 +1,2 @@
+mysql> Select length(first_name) as len_first_name , length(last_name) as len_last_name
+    	from employees;
