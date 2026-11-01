@@ -1,0 +1,2 @@
+select first_name from tbl_employee
+where first_name like 'b%' or first_name like 'c%';.
