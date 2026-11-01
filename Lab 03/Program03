@@ -1,0 +1,2 @@
+select concat(first_name,' ',last_name) as Name,salary from tbl_employee
+where salary not between 10000 and 15000 and (department_id=30 or department_id=100);
