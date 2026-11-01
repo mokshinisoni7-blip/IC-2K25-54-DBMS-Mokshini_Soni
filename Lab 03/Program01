@@ -1,0 +1,2 @@
+Select concat(first_name,' ',last_name) as Name,Salary from employee
+where salary not between 10000 and 15000;
