@@ -1,0 +1,2 @@
+select max(salary) from tbl_employee e,tbl_job j
+where e.job_id=j.job_id and job_function='Manager';
