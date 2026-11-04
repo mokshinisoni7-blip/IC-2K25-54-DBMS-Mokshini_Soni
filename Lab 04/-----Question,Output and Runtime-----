@@ -1,15 +1,34 @@
 1. Write a query to list the number of jobs available in the employees table.
-=>
+=> +---------------------+
+   | count(job_function) |
+   +---------------------+
+   |                   6 |
+   +---------------------+
+1 row in set (0.05 sec)
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
 2. Write a query to get the total salaries payable to employees.
-=>
+=> +-------------+
+   | sum(salary) |
+   +-------------+
+   |    11888.41 |
+   +-------------+
+1 row in set (0.04 sec)
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 3. Write a query to get the minimum salary from employees table.
-=>
+=>+-------------+
+  | min(salary) |
+  +-------------+
+  |     1250.00 |
++-------------+
+1 row in set (0.05 sec)
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-4. Write a query to get the maximum salary of an employee working as a Programmer.
-=>
+4. Write a query to get the maximum salary of an employee working as a Manager.
+=>+-------------+
+  | max(salary) |
+  +-------------+
+  |     2800.00 |
+  +-------------+
+1 row in set (0.05 sec)
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 5. Write a query to get the average salary and number of employees working the department 90.
 =>
